@@ -304,18 +304,9 @@ function validateField(field) {
 })();
 
 
-
 document.addEventListener('DOMContentLoaded', () => {
   SPA.init();
-
-  const btnContrast = document.getElementById('toggle-contrast');
-  if (btnContrast) {
-    btnContrast.addEventListener('click', () => {
-      document.body.classList.toggle('high-contrast');
-    });
-  }
 });
-
 
 
 window.SPA = SPA;
